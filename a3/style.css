@@ -1,0 +1,31 @@
+.bottom{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    width: 97%;
+    top: 550px;
+    height: 60px;
+}
+.container{
+    width: 100%;
+}
+article {
+    float: left;
+    padding: 20px;
+    width: 25%;
+    background-color: black;
+    height: 485px;
+}
+.middle{
+    left: 400px;
+    /*background-color: black;*/
+    padding: 50px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    width: 60%;
+    height: 425px;
+
+}
