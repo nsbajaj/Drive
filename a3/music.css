@@ -91,4 +91,51 @@ article {
     width: 60%;
     height: 425px;
 
+
+}
+
+.middle .artWork img{
+    border-radius: 5%;
+    position: relative;
+    right: 350px;
+    top: 15px;
+}
+.middle #audio{
+    position: relative;
+    left: 70px;
+    top: 400px;
+    width: 75%;
+    background-color: black;
+}
+#navBar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FF4060;
+    height: 30px;
+    width: 100%;
+}
+#navBar li{
+    float: left;
+    margin-right: 25px;
+}
+#navBar li a{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 14px;
+    padding-left: 16px;
+    font-size: 10px;
+}
+
+.middle #imgList{
+    float: right;
+    position: relative;
+    bottom: 90px;
+}
+.middle #imgList li img{
+    padding-bottom: 1px;
+    display: block;
 }
