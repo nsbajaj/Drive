@@ -20,4 +20,19 @@ $(document).ready(function () {
 
     });
 
+    $('#car').click(function(){
+        location.reload('');
+        window.location.href = '../index.html';
+    });
+    /*$('#navBar li a').click(function () {
+        location.reload('');
+        window.location.href = $(this).attr('href');
+    })*/
+
+
+    $('.bottom').css('background-color',localStorage.getItem('contrast'));
+    $('#navBar').css('background-color',localStorage.getItem('contrast'));
+
+
+
 });

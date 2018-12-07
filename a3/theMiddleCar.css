@@ -1,0 +1,36 @@
+
+#bg-selector{
+    position: absolute;
+    bottom: 100px;
+}
+
+.color {
+    width: 24px;
+    height: 24px;
+    border: 1px solid #555;
+    display: inline-block;
+    margin: 0 0 0 0.2em;
+    cursor: pointer;
+    padding: 2px;
+}
+.color img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+.black {
+    background-color: #000;
+}
+.red{
+    background-color: #FF4060;
+}
+.gray,
+.picker {
+    background-color: #eaeaea;
+}
+.white {
+    background-color: #fff;
+}
+.blue {
+    background-color: #00529c;
+}

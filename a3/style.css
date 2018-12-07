@@ -92,3 +92,9 @@ article {
     height: 425px;
 
 }
+
+#sideMenu{
+    background-image: url("img/sideBack.jpg");
+    background-repeat: no-repeat;
+    background-size: 340px 640px;
+}
