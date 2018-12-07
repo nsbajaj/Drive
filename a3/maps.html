@@ -22,6 +22,13 @@
             width: 250px;
             height: 605px;
         }
+        .search_button{
+            position: absolute;
+            top: 12px;
+            left: 290px;
+            width: 95px;
+            height: 30px;   
+        }
     </style>
 </head>
 <body>
@@ -46,11 +53,12 @@
         <div class="middle">
             <div class="map_screen_1">
                 <img src="img/map_screen_1.png" class="map_screen_1">
+                <form action="/maps2.html">
                 <div class="text-block">
-                    <form>
-                        <input type="text" name="search" value="" size="30"><br>
+                    <input type="text" name="search" value="" size="30">
+                        </div>
+                        <input class="search_button" type="Submit" value="Submit">
                     </form>
-              </div>
             </div>
             <!-- 
             <h1>Change Background Color With Picker</h1>
