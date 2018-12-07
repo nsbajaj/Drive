@@ -20,6 +20,10 @@ $(document).ready(function () {
 
     });
 
+    $('#imgList li img').click(function (e) {
+        $('#artWork').attr('src',$(this).attr('src'));
+    });
+
     $('#car').click(function(){
         location.reload('');
         window.location.href = '../index.html';
