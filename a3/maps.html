@@ -6,6 +6,23 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="theMiddleCar.css">
+    <style>
+        
+        .map_screen_1{
+            position: relative;
+            height: auto; 
+            width: auto; 
+            max-width: 1100px; 
+            max-height: 1100px;
+        }
+        .text-block {
+            position: absolute;
+            top: 15px;
+            left: 50px;
+            width: 250px;
+            height: 605px;
+        }
+    </style>
 </head>
 <body>
 
@@ -26,8 +43,16 @@
             <img id="volume" src="data:image/png;base64,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">
         </div>
 
-        <div class="middle" style="position: relative;top: 10px;">
-            <img src="http://iulian-anghel.ro/static-outside/renault.png" id="carImage">
+        <div class="middle">
+            <div class="map_screen_1">
+                <img src="img/map_screen_1.png" class="map_screen_1">
+                <div class="text-block">
+                    <form>
+                        <input type="text" name="search" value="" size="30"><br>
+                    </form>
+              </div>
+            </div>
+            <!-- 
             <h1>Change Background Color With Picker</h1>
             <div id="bg-selector">Switch background color:
                 <div class="color white" data-value="#fff"></div>
@@ -36,6 +61,7 @@
                 <div class="color blue" data-value="#00529c"></div>
                 <div class="color red" data-value="#FF4060"></div>
             </div>
+        -->
         </div>
 
         <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
