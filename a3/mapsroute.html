@@ -18,7 +18,7 @@
         .text-block {
             position: absolute;
             top: 15px;
-            left: 45px;
+            left: 0px;
             width: 255px;
             height: 605px;
         }
@@ -30,6 +30,13 @@
             height: 150px;
             border: 1px solid black;
             opacity: 0;
+        }
+        .back_button{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 50px;
+            height: 30px;   
         }
     </style>
 </head>
@@ -56,7 +63,10 @@
             <div class="map_screen_1">
                 <img src="img/route.png" class="map_screen_1">
                 <!-- <form action="/maps2.html">-->
-                
+                <div class="text-block">
+                        <a href="maps2.html"><input class="back_button" type="Submit" value="Back"></a>
+                    <!--</form>-->
+                </div>
                 <a href="mapsdirections.html"><div class="routes"></div></a>
             </div>
         </div>
